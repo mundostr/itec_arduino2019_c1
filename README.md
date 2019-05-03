@@ -6,4 +6,4 @@ En este curso se utilizará como base de desarrollo una placa standard Arduino U
 * Fundamentos esenciales de electrónica analógica y digital.
 * Elementos de taller.
 * Entorno de trabajo Arduino, estructura de programación:
-** Constantes, variables, tipos de datos, estructuras de control.
+  - Constantes, variables, tipos de datos, estructuras de control.
