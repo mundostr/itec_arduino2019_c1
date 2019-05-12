@@ -1,5 +1,5 @@
 # itec_arduino2019_c1
-ITEC RAFAELA CURSO ARDUINO BASE 2019 cuatrimestre 1
+<b>ITEC RAFAELA CURSO ARDUINO BASE 2019 cuatrimestre 1</b>
 
 En este curso se utilizará como base de desarrollo una placa standard Arduino UNO CH340, abordándose entre otros los siguientes temas:
 
@@ -23,3 +23,7 @@ En este curso se utilizará como base de desarrollo una placa standard Arduino U
   - Reguladores, convertidores de voltaje.
   - Diversas opciones de conectividad y protocolos de comunicación.
   - Alternativas de alimentación.
+
+<p>
+	No olvidar la información complementaria del <a href="https://github.com/mundostr/itec_arduino2019_c1/wiki"><b>Wiki!</b></a>.
+</p>
