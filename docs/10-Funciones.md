@@ -1,5 +1,5 @@
 <h1><b>FUNDACION INSTITUTO TECNOLOGICO RAFAELA</b></h1>
-<h2><b>Taller Arduino Adultos 2018</b></h2>
+<h2><b>Taller Arduino Adultos 2019</b></h2>
 
 <h3>10- Funciones</h3>
 
@@ -77,9 +77,9 @@ void lineaTrazos(byte longitud) {
 }
 ```
 
-Empleando una función y pasándole un argumento (byte longitud), podemos encapsular y organizar el código, dejando una llamada limpia en los lugares donde necesitamos la línea. Obviamente en cada uno de esos lugares, en vez de repetir el ciclo for, simplemente invocamos a la función y le pasamos el argumento para indicarle de qué longitud queremos la línea.
+Empleando una función y pasándole un argumento (byte longitud), podemos encapsular y organizar el código, dejando una llamada limpia en los lugares donde necesitamos la ejecución. Obviamente en cada uno de esos lugares, en vez de repetir el ciclo <i>for()</i>, simplemente invocamos a la función y le pasamos el argumento para indicarle de qué longitud queremos la línea.
 
-> Por supuesto no estamos limitados a un solo argumento, podemos indicar la cantidad que necesitemos separados por comas, cada uno de ellos con su tipo de dato correspondiente. Ejemplo: void lineaTrazos(byte longitud, boolean retornoCarro).
+> No estamos limitados a un solo argumento, podemos indicar la cantidad que necesitemos separados por comas, cada uno de ellos con su tipo de dato correspondiente. Ejemplo: void lineaTrazos(byte longitud, boolean retornoCarro).
 
 <p>&nbsp;</p>
 
@@ -119,9 +119,9 @@ float calculo(float indice, int coeficiente) {
 
 Al escribir código Arduino sencillo, declaramos las variables a utilizar al comienzo del programa (fuera de <i>setup()</i> y <i>loop()</i>), con lo cual estas variables son de tipo <i>global</i>, es decir, pueden ser empleadas en cualquier parte del código.
 
-Si bien esta práctica es válida, a medida que el volumen y la complejidad de código crecen, administrar todas las variables globalmente se vuelve un problema, sea de rendimiento en casos puntuales, o lo más habitual, de lectura y depuración de código, ya que todas pueden ser modificadas libremente desde cualquier fracción del programa, lo cual es mucho más propenso a errores y dificulta el rastreo de los mismos.
+Si bien esta práctica es válida, a medida que el volumen y la complejidad de código crecen, administrar todas las variables globalmente se vuelve un problema, sea de rendimiento o de lectura y depuración de código, ya que todas pueden ser modificadas libremente desde cualquier fracción del programa, lo cual es mucho más propenso a errores y dificulta el rastreo de los mismos.
 
-<b>Al utilizar funciones, podemos declarar variables internamente, y éstas se mantendrán válidas solo dentro del ámbito de la función, es decir, su alcance o scope será el de la propia función en la que fueron declaradas, no existiendo fuera de ellas. Serán por ende variables <i>locales</i></b>. En el caso anterior:
+<b>Al utilizar funciones, podemos declarar variables internamente, y éstas se mantendrán válidas solo dentro del ámbito de la función, es decir, su alcance <i>o scope</i> será el de la propia función en la que fueron declaradas, no existiendo fuera de ellas. Serán por ende variables <i>locales</i></b>. En el caso anterior:
 
 ```
 float calculo(float indice, int coeficiente) {
