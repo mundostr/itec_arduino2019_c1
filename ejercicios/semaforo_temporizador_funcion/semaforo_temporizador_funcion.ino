@@ -11,9 +11,9 @@
 const byte PIN_RJO = 3;
 const byte PIN_VDE = 4;
 const byte PIN_AMA = 5;
-const byte INTERVALO_RJO = 5000;
-const byte INTERVALO_VDE = 5000;
-const byte INTERVALO_AMA = 3000;
+const int INTERVALO_RJO = 5000;
+const int INTERVALO_VDE = 5000;
+const int INTERVALO_AMA = 3000;
 
 // Agregamos un par de variables que nos servirán en el loop() para llevar
 // un control de qué luz encender, y poder cambiar dinámicamente el tiempo que aguarda el temporizador
