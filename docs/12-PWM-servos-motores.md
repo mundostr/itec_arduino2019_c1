@@ -228,3 +228,5 @@ Además del característico L293 que hemos utilizado como base para los ejercici
 * <b>HG7881</b>: driver basado en el integrado L9110, que permite manejar 4 motores DC, una alternativa compacta para pequeños robots.
 
 * <b>L298N</b>: otro módulo doble puente H, muy popular, que permite manejar 2 motores DC o un motor PAP bipolar de 5 a 35V y hasta 2A por salida.
+
+Por supuesto, cuando requerimos consumos mayores, podemos optar por drivers comerciales más específicos o armar nuestro propio diseño de puente H con <i>mosfets</i> que nos pueden permitir manejar desde 5 o 10A a 100 o 200A como el IRF1404, un verdadero monstruo.
