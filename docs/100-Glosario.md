@@ -143,7 +143,7 @@
 
 * <b>OUTPUT</b>: constante predefinida, que se utiliza en una instrucción pinMode() para indicar que el deseamos utilizar el pin como SALIDA.
 
-* <b>PinMode(pin, modo): función de alto nivel para definir si un pin se comportará como entrada o salida. "modo" puede ser INPUT, OUTPUT, INPUT_PULLUP y solo en algunas placas específicas (por ejemplo las ESP32), INPUT_PULLDOWN, ya que la mayoría no cuentan con resistencias PULLDOWN internas, solo PULLUP.
+* <b>PinMode(pin, modo)</b>: función de alto nivel para definir si un pin se comportará como entrada o salida. "modo" puede ser INPUT, OUTPUT, INPUT_PULLUP y solo en algunas placas específicas (por ejemplo las ESP32), INPUT_PULLDOWN, ya que la mayoría no cuentan con resistencias PULLDOWN internas, solo PULLUP.
 
 * <b>RISING</b> (trepando): constante predefinida que se utiliza normalmente en attachInterrupt y que nos permite estar atentos al flanco de subida del pin, es decir, el momento en el cual comienza a subir de LOW a HIGH (0 a 1).
 
