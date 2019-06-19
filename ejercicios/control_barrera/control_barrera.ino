@@ -7,7 +7,7 @@ const byte PULSADOR = 2;
 const byte LED = 13;
 const byte LDR = 14; // A0
 
-const byte BARRERA_ALTA = 70;
+const float BARRERA_ALTA = 70.5;
 const byte BARRERA_BAJA = 180;
 const byte FREC_LDR = 100;
 const int FREC_SIRENA = 1000;
@@ -43,36 +43,43 @@ void setup() {
 }
 
 void loop() {
-  if (timer1 >= FREC_LDR) {
-    lecturaLdr = analogRead(LDR);
-
-    if (lecturaLdr <= MIN_LDR || emergencia) {
+  if (emergencia) {
+    if (!barreraAlta) {
       servo01.write(BARRERA_ALTA);
       barreraAlta = true;
-      timer2 = 0;
-    } else {
-      if (barreraAlta && !emergencia) {
-        if (timer2 >= DEMORA_BAJADA) {
-          servo01.write(BARRERA_BAJA);
-          digitalWrite(LED, LOW);
-          barreraAlta = false;
-          timer2 = 0;
+    }
+
+    if (timer3 >= FREC_SIRENA && emergencia) {
+      if (tono == TONO_BAJO) {
+        tono = TONO_ALTO;
+        digitalWrite(LED, LOW);
+      } else {
+        tono = TONO_BAJO;
+        digitalWrite(LED, HIGH);
+      }
+      tone(BUZZER, tono, FREC_SIRENA);
+      timer3 = 0;
+    }
+  } else {
+    if (timer1 >= FREC_LDR) {
+      lecturaLdr = analogRead(LDR);
+
+      if (lecturaLdr <= MIN_LDR) {
+        servo01.write(BARRERA_ALTA);
+        barreraAlta = true;
+        timer2 = 0;
+      } else {
+        if (barreraAlta) {
+          if (timer2 >= DEMORA_BAJADA) {
+            servo01.write(BARRERA_BAJA);
+            digitalWrite(LED, LOW);
+            barreraAlta = false;
+            timer2 = 0;
+          }
         }
       }
+      timer1 = 0;
     }
-
-    timer1 = 0;
-  }
-
-  if (timer3 >= FREC_SIRENA && emergencia) {
-    if (tono == TONO_BAJO) {
-      tono = TONO_ALTO;
-      digitalWrite(LED, LOW);
-    } else {
-      tono = TONO_BAJO;
-      digitalWrite(LED, HIGH);
-    }
-    tone(BUZZER, tono, FREC_SIRENA);
     timer3 = 0;
   }
 }
