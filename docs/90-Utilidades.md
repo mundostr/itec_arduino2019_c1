@@ -9,6 +9,10 @@ En este apartado iremos listando diversas aplicaciones que serán de gran utilid
 
 * <b>TinkerCAD</b>: el sitio tinkercad.com (<a href="http://tinkercad.com/circuits">http://tinkercad.com/circuits</a>) -perteneciente a Autodesk- incluye un generador de circuitos que puede emplearse de manera gratuita, y si bien no es una herramienta de uso profesional, resulta de mucha comodidad al momento de dar los primeros pasos en la conexión de elementos. El generador opera también con un simulador que permite cargar código Arduino, incluye componentes y ejemplos preconfigurados, pudiendo probarse diferentes opciones con comodidad en la computadora, antes de pasar a las conexiones físicas.
 
+* <b>3DC.io</b>: <a href="https://3dc.io" target="_blank">https://3dc.io</a> Editor para comenzar con diseño 3D, muy útil en la instrucción de alumnos de nivel escolar y para proyectos sencillos.
+
+* <b>Selva 3D</b>: <a href="https://www.selva3d.com/" target="_blank">https://www.selva3d.com/</a>, otra utilidad muy intuitiva que permite generar modelos 3D a partir de imágenes 2D, poniendo a funcionar la creatividad de alumnos e iniciantes.
+
 * <b>GrabCad</b>: <a href="https://grabcad.com/">https://grabcad.com/</a> es una comunidad para profesionales y estudiantes, que comparte diseños 3D de todo tipo, entre ellos muchos aplicables a Arduino como cajas, montajes, soportes e imprimibles de variados proyectos.
 
 * <b>Thingiverse</b>: <a href="https://www.thingiverse.com/">https://www.thingiverse.com/</a> es otra comunidad muy nutrida, dedicada a compartir proyectos de impresión 3D, entre los cuales podrán encontrar gran variedad de elementos destinados a Arduino.
