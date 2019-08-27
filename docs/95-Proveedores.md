@@ -19,6 +19,7 @@ Algunos sitios para compra de componentes Arduino, en determinados casos tambié
 * <b>NeoTrends</b> (BsAs): <a href="https://www.neotrends.com.ar">neotrends.com.ar</a>
 * <b>Monarca</b> (BsAs): <a href="https://monarcaelectronica.com.ar">monarcaelectronica.com.ar</a>
 * <b>IcuTech</b> (BsAs): <a href="https://icutech.webnode.com/">icutech.webnode.com</a>
+* <b>RoboticsBay</b> (Bahía Blanca): <a href="http://roboticsbay.com.ar">roboticsbay.com.ar</a>
 * <b>TiendaVirtual</b> (Córdoba), <a href="https://www.tiendavirtual.com" target="_blank">tiendavirtual.com</a>
 * <b>OpenHacks</b> (Rosario), distribuidor oficial Arduino original: <a href="https://www.openhacks.com/">openhacks.com</a>
 * <b>3D Sur</b> (Rosario): <a href="http://3dsur.com.ar/">3dsur.com.ar</a>
@@ -47,3 +48,5 @@ En varios se suelen aprovechar ofertas sin gasto de envío (free shipping), pero
 * <b>Gearbest</b>: <a href="https://www.gearbest.com/">gearbest.com</a>
 * <b>Amazon</b>: <a href="https://www.amazon.com/">amazon.com</a>
 * <b>Hobbyking</b>: <a href="https://hobbyking.com">hobbyking.com</a>
+* <b>RobotShop</b>: <a href="https://robotshop.com">robotshop.com</a>
+* <b>DFRobot</b>: <a href="https://www.dfrobot.com/">dfrobot.com</a>
