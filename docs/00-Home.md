@@ -13,7 +13,7 @@ Comenzando desde cero -y como no podía ser de otra manera- utilizando como prim
 
 Si a lo mencionado le agregamos otros elementos como un costo sumamente accesible, la posibilidad de utilización en cualquiera de las plataformas populares (Linux, Windows, Mac, Android), y una enorme comunidad detrás, desarrollando de manera constante librerías y soluciones, obtenemos una combinación muy práctica y versátil para gran cantidad de aplicaciones.
 
-**<a href="https://arduinohistory.github.io/">Un texto muy interesante para conocer más sobre la historia de Arduino</a>**
+**<a href="https://arduinohistory.github.io/">En arduinohistory.github.io puede leerse información interesante sobre la historia de Arduino</a>**
 
 Hablamos de Arduino y hablamos de microcontroladores, qué es un microcontrolador?. Esencialmente es un circuito integrado programable, que incluye en su interior las 3 unidades funcionales primarias que estamos acostumbrados a observar en una computadora: [CPU (Unidad Central de Procesamiento)](https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento), [memoria](https://es.wikipedia.org/wiki/Memoria_(inform%C3%A1tica)) y [periféricos de entrada y salida](https://es.wikipedia.org/wiki/Perif%C3%A9rico_(inform%C3%A1tica)).
 
