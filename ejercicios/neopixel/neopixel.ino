@@ -19,7 +19,7 @@ byte ciclo = 0;
 byte matrizRGB[ITEMS_MATRIZ][3] = { {0, 0, 0}, {255, 0, 0}, {0, 255, 0}, {0, 0, 255}, {255, 255, 0}, {255, 255, 255} };
 
 elapsedMillis timer1;
-Adafruit_NeoPixel ledM = Adafruit_NeoPixel(1, MULTILED, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel ledM = Adafruit_NeoPixel(3, MULTILED, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   Serial.begin(38400);
@@ -36,6 +36,8 @@ void loop() {
     // (rojo y verde están invertidos porque los leds PL9823 son programados de esa manera.
     ledM.clear();
     ledM.setPixelColor(0, matrizRGB[ciclo][1], matrizRGB[ciclo][0], matrizRGB[ciclo][2]);
+    ledM.setPixelColor(1, matrizRGB[ciclo][1], matrizRGB[ciclo][0], matrizRGB[ciclo][2]);
+    ledM.setPixelColor(2, matrizRGB[ciclo][1], matrizRGB[ciclo][0], matrizRGB[ciclo][2]);
     ledM.show();
     ciclo++;
     if (ciclo == ITEMS_MATRIZ) {
